@@ -1,6 +1,6 @@
 function s=csnr(A,B,row,col)
 
-[n,m,ch]=size(A);
+[n,m,ch]=size(A);    %矩阵大小
 
 if ch==1
    e=A-B;
